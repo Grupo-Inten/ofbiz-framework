@@ -138,12 +138,12 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
                 jdbc-driver="org.postgresql.Driver"
-                jdbc-uri="jdbc:postgresql://127.0.0.1/ofbiz"
-                jdbc-username="postgres"
-                jdbc-password="83C1ut#r1mK05"
+                jdbc-uri="jdbc:postgresql://2.56.15.118/ofbiz"
+                jdbc-username="c3cs"
+                jdbc-password="L4fu3rZ4T#4c0mPaÑ3"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
-                pool-maxsize="250"
+                pool-maxsize="32"
                 time-between-eviction-runs-millis="600000"/><!-- Be warned that at this date (2009-09-20) the max_connections parameters in postgresql.conf
                 is set by default to 100 by the initdb process see http://www.postgresql.org/docs/8.4/static/runtime-config-connection.html#GUC-MAX-CONNECTIONS-->
 
@@ -175,12 +175,12 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
                 jdbc-driver="org.postgresql.Driver"
-                jdbc-uri="jdbc:postgresql://127.0.0.1/ofbizolap"
-                jdbc-username="postgres"
-                jdbc-password="83C1ut#r1mK05"
+                jdbc-uri="jdbc:postgresql://2.56.15.118/ofbizolap"
+                jdbc-username="c3cs"
+                jdbc-password="L4fu3rZ4T#4c0mPaÑ3"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
-                pool-maxsize="250"
+                pool-maxsize="16"
                 time-between-eviction-runs-millis="600000"/><!-- Be warned that at this date (2009-09-20) the max_connections parameters in postgresql.conf
                     is set by default to 100 by the initdb process see http://www.postgresql.org/docs/8.4/static/runtime-config-connection.html#GUC-MAX-CONNECTIONS-->
         
@@ -212,12 +212,12 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
                 jdbc-driver="org.postgresql.Driver"
-                jdbc-uri="jdbc:postgresql://127.0.0.1/ofbiztenant"
-                jdbc-username="postgres"
-                jdbc-password="83C1ut#r1mK05"
+                jdbc-uri="jdbc:postgresql://2.56.15.118/ofbiztenant"
+                jdbc-username="c3cs"
+                jdbc-password="L4fu3rZ4T#4c0mPaÑ3"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
-                pool-maxsize="250"
+                pool-maxsize="16"
                 time-between-eviction-runs-millis="600000"/><!-- Be warned that at this date (2009-09-20) the max_connections parameters in postgresql.conf
                     is set by default to 100 by the initdb process see http://www.postgresql.org/docs/8.4/static/runtime-config-connection.html#GUC-MAX-CONNECTIONS-->
         
