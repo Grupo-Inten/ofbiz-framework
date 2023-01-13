@@ -969,7 +969,7 @@ task pullPluginSource(group: ofbizPlugin, description: 'Download and install a p
     if (project.hasProperty('pluginId')) {
         // GitHub SVN feature https://docs.github.com/en/github/importing-your-projects-to-github/working-with-subversion-on-github/support-for-subversion-clients
         task pullPluginFromSvn(type: SvnCheckout) {
-            svnUrl = "https://github.com/ciuter/ofbiz-plugins/trunk/${pluginId}"
+            svnUrl = "https://github.com/Grupo-Inten/ofbiz-plugins/trunk/${pluginId}"
             workspaceDir = "${pluginsDir}/${pluginId}"
         }
         dependsOn pullPluginFromSvn
@@ -987,7 +987,7 @@ task pullAllPluginsSource(group: ofbizPlugin,
     }
     task pullPluginsFromSvn(type: SvnCheckout, dependsOn: deleteBeforePulling) {
         // GitHub SVN feature https://docs.github.com/en/github/importing-your-projects-to-github/working-with-subversion-on-github/support-for-subversion-clients
-        svnUrl = "https://github.com/ciuter/ofbiz-plugins/trunk"
+        svnUrl = "https://github.com/Grupo-Inten/ofbiz-plugins"
         workspaceDir = "${pluginsDir}"
     }
     dependsOn pullPluginsFromSvn
